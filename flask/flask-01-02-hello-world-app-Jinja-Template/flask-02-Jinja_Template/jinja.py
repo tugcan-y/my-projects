@@ -8,7 +8,7 @@ def head():
 
 @app.route('/sum')
 def number():
-    var1, var2 = 15254510, 389154560
+    var1, var2 = 152510, 3891560
     return render_template('body.html', value1 = var1, value2 = var2, sum = var1+var2)
 
 
