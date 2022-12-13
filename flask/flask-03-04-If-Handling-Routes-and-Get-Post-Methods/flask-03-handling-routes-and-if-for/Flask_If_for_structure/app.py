@@ -15,7 +15,7 @@ def head():
 # and assign to the route of ('/')
 @app.route("/tugcan")
 def header():
-    names =["tuco", "toucan", "toby", "tuncay"]
+    names =["tuco", "toucan", "toby"]
     # numbers = range(1, 11)
     return render_template("body.html", object = names)
 
